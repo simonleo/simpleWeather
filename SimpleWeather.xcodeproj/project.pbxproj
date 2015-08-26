@@ -42,6 +42,10 @@
 		494E21371B8C71A900D97362 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 494E21351B8C71A900D97362 /* LaunchScreen.xib */; };
 		494E21431B8C71A900D97362 /* SimpleWeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 494E21421B8C71A900D97362 /* SimpleWeatherTests.m */; };
 		494E21501B8C75AB00D97362 /* SWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 494E214F1B8C75AB00D97362 /* SWViewController.m */; };
+		49EE86C11B8D648100BE2D1E /* SWClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EE86C01B8D648100BE2D1E /* SWClient.m */; };
+		49EE86C41B8D64C300BE2D1E /* SWManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EE86C31B8D64C300BE2D1E /* SWManager.m */; };
+		49EE86C71B8D64EF00BE2D1E /* SWCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EE86C61B8D64EF00BE2D1E /* SWCondition.m */; };
+		49EE86CA1B8D650C00BE2D1E /* SWDailyForecast.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EE86C91B8D650C00BE2D1E /* SWDailyForecast.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +101,14 @@
 		494E21421B8C71A900D97362 /* SimpleWeatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleWeatherTests.m; sourceTree = "<group>"; };
 		494E214E1B8C75AB00D97362 /* SWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWViewController.h; sourceTree = "<group>"; };
 		494E214F1B8C75AB00D97362 /* SWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWViewController.m; sourceTree = "<group>"; };
+		49EE86BF1B8D648100BE2D1E /* SWClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWClient.h; sourceTree = "<group>"; };
+		49EE86C01B8D648100BE2D1E /* SWClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWClient.m; sourceTree = "<group>"; };
+		49EE86C21B8D64C300BE2D1E /* SWManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWManager.h; sourceTree = "<group>"; };
+		49EE86C31B8D64C300BE2D1E /* SWManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWManager.m; sourceTree = "<group>"; };
+		49EE86C51B8D64EF00BE2D1E /* SWCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWCondition.h; sourceTree = "<group>"; };
+		49EE86C61B8D64EF00BE2D1E /* SWCondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWCondition.m; sourceTree = "<group>"; };
+		49EE86C81B8D650C00BE2D1E /* SWDailyForecast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWDailyForecast.h; sourceTree = "<group>"; };
+		49EE86C91B8D650C00BE2D1E /* SWDailyForecast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWDailyForecast.m; sourceTree = "<group>"; };
 		888D8AEF3CD184BCAED295F9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		FF8AC5DA9DEA320F23532D55 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -203,6 +215,14 @@
 				494E21261B8C71A900D97362 /* Supporting Files */,
 				494E214E1B8C75AB00D97362 /* SWViewController.h */,
 				494E214F1B8C75AB00D97362 /* SWViewController.m */,
+				49EE86BF1B8D648100BE2D1E /* SWClient.h */,
+				49EE86C01B8D648100BE2D1E /* SWClient.m */,
+				49EE86C21B8D64C300BE2D1E /* SWManager.h */,
+				49EE86C31B8D64C300BE2D1E /* SWManager.m */,
+				49EE86C51B8D64EF00BE2D1E /* SWCondition.h */,
+				49EE86C61B8D64EF00BE2D1E /* SWCondition.m */,
+				49EE86C81B8D650C00BE2D1E /* SWDailyForecast.h */,
+				49EE86C91B8D650C00BE2D1E /* SWDailyForecast.m */,
 			);
 			path = SimpleWeather;
 			sourceTree = "<group>";
@@ -403,10 +423,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49EE86CA1B8D650C00BE2D1E /* SWDailyForecast.m in Sources */,
 				494E212F1B8C71A900D97362 /* ViewController.m in Sources */,
+				49EE86C41B8D64C300BE2D1E /* SWManager.m in Sources */,
 				494E212C1B8C71A900D97362 /* AppDelegate.m in Sources */,
 				494E21501B8C75AB00D97362 /* SWViewController.m in Sources */,
 				494E21291B8C71A900D97362 /* main.m in Sources */,
+				49EE86C11B8D648100BE2D1E /* SWClient.m in Sources */,
+				49EE86C71B8D64EF00BE2D1E /* SWCondition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
