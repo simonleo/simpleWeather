@@ -36,12 +36,13 @@
 		4939ABE31B8CCCA000285D63 /* weather-tstorm@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4939ABC91B8CCCA000285D63 /* weather-tstorm@2x.png */; };
 		494E21291B8C71A900D97362 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 494E21281B8C71A900D97362 /* main.m */; };
 		494E212C1B8C71A900D97362 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 494E212B1B8C71A900D97362 /* AppDelegate.m */; };
-		494E212F1B8C71A900D97362 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 494E212E1B8C71A900D97362 /* ViewController.m */; };
 		494E21321B8C71A900D97362 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494E21301B8C71A900D97362 /* Main.storyboard */; };
 		494E21341B8C71A900D97362 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494E21331B8C71A900D97362 /* Images.xcassets */; };
 		494E21371B8C71A900D97362 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 494E21351B8C71A900D97362 /* LaunchScreen.xib */; };
 		494E21431B8C71A900D97362 /* SimpleWeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 494E21421B8C71A900D97362 /* SimpleWeatherTests.m */; };
 		494E21501B8C75AB00D97362 /* SWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 494E214F1B8C75AB00D97362 /* SWViewController.m */; };
+		49ED12191B8EAA45009FFF42 /* SWSwizzleUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 49ED12181B8EAA45009FFF42 /* SWSwizzleUtils.m */; };
+		49ED12221B8EC318009FFF42 /* CLLocationManager+Enhancements.m in Sources */ = {isa = PBXBuildFile; fileRef = 49ED12211B8EC318009FFF42 /* CLLocationManager+Enhancements.m */; };
 		49EE86C11B8D648100BE2D1E /* SWClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EE86C01B8D648100BE2D1E /* SWClient.m */; };
 		49EE86C41B8D64C300BE2D1E /* SWManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EE86C31B8D64C300BE2D1E /* SWManager.m */; };
 		49EE86C71B8D64EF00BE2D1E /* SWCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EE86C61B8D64EF00BE2D1E /* SWCondition.m */; };
@@ -91,8 +92,6 @@
 		494E21281B8C71A900D97362 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		494E212A1B8C71A900D97362 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		494E212B1B8C71A900D97362 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		494E212D1B8C71A900D97362 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		494E212E1B8C71A900D97362 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		494E21311B8C71A900D97362 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		494E21331B8C71A900D97362 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		494E21361B8C71A900D97362 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -101,6 +100,10 @@
 		494E21421B8C71A900D97362 /* SimpleWeatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleWeatherTests.m; sourceTree = "<group>"; };
 		494E214E1B8C75AB00D97362 /* SWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWViewController.h; sourceTree = "<group>"; };
 		494E214F1B8C75AB00D97362 /* SWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWViewController.m; sourceTree = "<group>"; };
+		49ED12171B8EAA45009FFF42 /* SWSwizzleUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWSwizzleUtils.h; sourceTree = "<group>"; };
+		49ED12181B8EAA45009FFF42 /* SWSwizzleUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWSwizzleUtils.m; sourceTree = "<group>"; };
+		49ED12201B8EC318009FFF42 /* CLLocationManager+Enhancements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocationManager+Enhancements.h"; sourceTree = "<group>"; };
+		49ED12211B8EC318009FFF42 /* CLLocationManager+Enhancements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocationManager+Enhancements.m"; sourceTree = "<group>"; };
 		49EE86BF1B8D648100BE2D1E /* SWClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWClient.h; sourceTree = "<group>"; };
 		49EE86C01B8D648100BE2D1E /* SWClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWClient.m; sourceTree = "<group>"; };
 		49EE86C21B8D64C300BE2D1E /* SWManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWManager.h; sourceTree = "<group>"; };
@@ -207,8 +210,6 @@
 			children = (
 				494E212A1B8C71A900D97362 /* AppDelegate.h */,
 				494E212B1B8C71A900D97362 /* AppDelegate.m */,
-				494E212D1B8C71A900D97362 /* ViewController.h */,
-				494E212E1B8C71A900D97362 /* ViewController.m */,
 				494E21301B8C71A900D97362 /* Main.storyboard */,
 				494E21331B8C71A900D97362 /* Images.xcassets */,
 				494E21351B8C71A900D97362 /* LaunchScreen.xib */,
@@ -223,6 +224,10 @@
 				49EE86C61B8D64EF00BE2D1E /* SWCondition.m */,
 				49EE86C81B8D650C00BE2D1E /* SWDailyForecast.h */,
 				49EE86C91B8D650C00BE2D1E /* SWDailyForecast.m */,
+				49ED12171B8EAA45009FFF42 /* SWSwizzleUtils.h */,
+				49ED12181B8EAA45009FFF42 /* SWSwizzleUtils.m */,
+				49ED12201B8EC318009FFF42 /* CLLocationManager+Enhancements.h */,
+				49ED12211B8EC318009FFF42 /* CLLocationManager+Enhancements.m */,
 			);
 			path = SimpleWeather;
 			sourceTree = "<group>";
@@ -424,7 +429,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				49EE86CA1B8D650C00BE2D1E /* SWDailyForecast.m in Sources */,
-				494E212F1B8C71A900D97362 /* ViewController.m in Sources */,
+				49ED12191B8EAA45009FFF42 /* SWSwizzleUtils.m in Sources */,
+				49ED12221B8EC318009FFF42 /* CLLocationManager+Enhancements.m in Sources */,
 				49EE86C41B8D64C300BE2D1E /* SWManager.m in Sources */,
 				494E212C1B8C71A900D97362 /* AppDelegate.m in Sources */,
 				494E21501B8C75AB00D97362 /* SWViewController.m in Sources */,
