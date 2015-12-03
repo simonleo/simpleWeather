@@ -34,20 +34,15 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>UIViewController+Swizzled.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>18A4BA8BFD66F76A5A3AE5290D46B994</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>302C9D0CAC9650CCF088327C5A0B469E</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>65793A2F0F9CB88379748594EB2595D1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -57,12 +52,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>71B01144BD3D5D70448E30806BFE6938</key>
+		<key>7A4144903DCC1C8ADFC6D4550D1B13F5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D5120A52FE3C60BBADE9BB330C47F021</key>
+		<key>B7D7C70997C052454EE60747F6E07661</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BECAD0F23E5112D88CA54DB749C34E49</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CAB56AF4B2C70DD4AE833AB53C5C10BC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CB7A6C0AE3715934E26D4E5031237EAA</key>
 		<dict>
 			<key>primary</key>
 			<true/>

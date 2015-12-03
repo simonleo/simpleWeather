@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "SWViewController.h"
 #import <TSMessage.h>
+#import "UIViewController+Swizzled.h"
 
 @interface AppDelegate ()
 
@@ -19,6 +20,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    SWIZZ_IT
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
     self.window.rootViewController = [[SWViewController alloc] init];

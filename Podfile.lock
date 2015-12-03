@@ -13,12 +13,14 @@ PODS:
     - ReactiveCocoa/Core
   - TSMessages (0.9.12):
     - HexColors (~> 2.2.0)
+  - UIViewController+Swizzled (1.4)
 
 DEPENDENCIES:
   - LBBlurredImage
   - Mantle (= 1.3.1)
   - ReactiveCocoa
   - TSMessages
+  - UIViewController+Swizzled (~> 1.2)
 
 SPEC CHECKSUMS:
   HexColors: abfd172e329dab59888614ccba6f216cec59289d
@@ -26,5 +28,6 @@ SPEC CHECKSUMS:
   Mantle: a516570b84c3cefb34b02647a6588a087dddc490
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
   TSMessages: c8cc7b80f2a833af533872cd02010cac061532cc
+  UIViewController+Swizzled: 1cd9397598ede6930f94fbcac4b43d63c7aa0dbb
 
 COCOAPODS: 0.38.2

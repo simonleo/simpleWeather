@@ -47,6 +47,7 @@
 		49EE86C41B8D64C300BE2D1E /* SWManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EE86C31B8D64C300BE2D1E /* SWManager.m */; };
 		49EE86C71B8D64EF00BE2D1E /* SWCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EE86C61B8D64EF00BE2D1E /* SWCondition.m */; };
 		49EE86CA1B8D650C00BE2D1E /* SWDailyForecast.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EE86C91B8D650C00BE2D1E /* SWDailyForecast.m */; };
+		49F323DB1BA71E8E0034634F /* Xtrace.mm in Sources */ = {isa = PBXBuildFile; fileRef = 49F323DA1BA71E8E0034634F /* Xtrace.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +113,8 @@
 		49EE86C61B8D64EF00BE2D1E /* SWCondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWCondition.m; sourceTree = "<group>"; };
 		49EE86C81B8D650C00BE2D1E /* SWDailyForecast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWDailyForecast.h; sourceTree = "<group>"; };
 		49EE86C91B8D650C00BE2D1E /* SWDailyForecast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWDailyForecast.m; sourceTree = "<group>"; };
+		49F323D91BA71E8E0034634F /* Xtrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Xtrace.h; sourceTree = "<group>"; };
+		49F323DA1BA71E8E0034634F /* Xtrace.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Xtrace.mm; sourceTree = "<group>"; };
 		888D8AEF3CD184BCAED295F9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		FF8AC5DA9DEA320F23532D55 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -208,6 +211,8 @@
 		494E21251B8C71A900D97362 /* SimpleWeather */ = {
 			isa = PBXGroup;
 			children = (
+				49F323D91BA71E8E0034634F /* Xtrace.h */,
+				49F323DA1BA71E8E0034634F /* Xtrace.mm */,
 				494E212A1B8C71A900D97362 /* AppDelegate.h */,
 				494E212B1B8C71A900D97362 /* AppDelegate.m */,
 				494E21301B8C71A900D97362 /* Main.storyboard */,
@@ -430,6 +435,7 @@
 			files = (
 				49EE86CA1B8D650C00BE2D1E /* SWDailyForecast.m in Sources */,
 				49ED12191B8EAA45009FFF42 /* SWSwizzleUtils.m in Sources */,
+				49F323DB1BA71E8E0034634F /* Xtrace.mm in Sources */,
 				49ED12221B8EC318009FFF42 /* CLLocationManager+Enhancements.m in Sources */,
 				49EE86C41B8D64C300BE2D1E /* SWManager.m in Sources */,
 				494E212C1B8C71A900D97362 /* AppDelegate.m in Sources */,
