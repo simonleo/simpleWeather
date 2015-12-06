@@ -192,15 +192,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SimpleWeather/SWManager.m"
-            timestampString = "462386497.312117"
+            timestampString = "471102951.020116"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "71"
-            endingLineNumber = "71"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
             landmarkName = "-locationManager:didUpdateLocations:"
             landmarkType = "5">
          </BreakpointContent>
@@ -224,7 +224,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SimpleWeather/SWManager.m"
@@ -237,14 +237,14 @@
             landmarkType = "5">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "__36-[SWManager updateCurrentConditions]_block_invoke"
                   moduleName = "SimpleWeather"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/ls/project/demos/SimpleWeather/SimpleWeather/SWManager.m"
-                  timestampString = "470852578.896662"
+                  timestampString = "471104389.05059"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "81"
@@ -252,14 +252,14 @@
                   offsetFromSymbolStart = "87">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "__copy_helper_block_75"
+                  symbolName = "__copy_helper_block_71"
                   moduleName = "SimpleWeather"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/ls/project/demos/SimpleWeather/SimpleWeather/SWManager.m"
-                  timestampString = "470852578.896854"
+                  timestampString = "471104389.051237"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -267,14 +267,14 @@
                   offsetFromSymbolStart = "16">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "__destroy_helper_block_76"
+                  symbolName = "__destroy_helper_block_72"
                   moduleName = "SimpleWeather"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/ls/project/demos/SimpleWeather/SimpleWeather/SWManager.m"
-                  timestampString = "470852578.897094"
+                  timestampString = "471104389.05174"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -390,7 +390,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "135"
             endingLineNumber = "135"
-            landmarkName = "-initWithModelClass:"
+            landmarkName = "-initWithJSONDictionary:modelClass:error:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -406,7 +406,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "168"
             endingLineNumber = "168"
-            landmarkName = "-initWithModelClass:"
+            landmarkName = "-JSONDictionary"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -421,9 +421,7 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "365"
-            endingLineNumber = "365"
-            landmarkName = "+valueTransformersForModelClass:"
-            landmarkType = "5">
+            endingLineNumber = "365">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -437,9 +435,7 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "260"
-            endingLineNumber = "260"
-            landmarkName = "-modelFromJSONDictionary:error:"
-            landmarkType = "5">
+            endingLineNumber = "260">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -453,9 +449,7 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "359"
-            endingLineNumber = "359"
-            landmarkName = "-modelFromJSONDictionary:error:"
-            landmarkType = "5">
+            endingLineNumber = "359">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -469,9 +463,7 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "310"
-            endingLineNumber = "310"
-            landmarkName = "-modelFromJSONDictionary:error:"
-            landmarkType = "5">
+            endingLineNumber = "310">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -485,9 +477,7 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "357"
-            endingLineNumber = "357"
-            landmarkName = "-modelFromJSONDictionary:error:"
-            landmarkType = "5">
+            endingLineNumber = "357">
             <Locations>
                <Location
                   shouldBeEnabled = "No"
@@ -533,9 +523,7 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "288"
-            endingLineNumber = "288"
-            landmarkName = "-modelFromJSONDictionary:error:"
-            landmarkType = "5">
+            endingLineNumber = "288">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -621,7 +609,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SimpleWeather/SWCondition.m"
@@ -646,7 +634,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "79"
             endingLineNumber = "79"
-            landmarkName = "+modelOfClass:fromJSONDictionary:error:"
+            landmarkName = "-initWithJSONDictionary:modelClass:error:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -664,6 +652,53 @@
             endingLineNumber = "88"
             landmarkName = "-updateHourlyForecast"
             landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__33-[SWManager updateHourlyForecast]_block_invoke"
+                  moduleName = "SimpleWeather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ls/project/demos/SimpleWeather/SimpleWeather/SWManager.m"
+                  timestampString = "471104389.058219"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "87">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__copy_helper_block_81"
+                  moduleName = "SimpleWeather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ls/project/demos/SimpleWeather/SimpleWeather/SWManager.m"
+                  timestampString = "471104389.058595"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__destroy_helper_block_82"
+                  moduleName = "SimpleWeather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ls/project/demos/SimpleWeather/SimpleWeather/SWManager.m"
+                  timestampString = "471104389.058986"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -680,38 +715,53 @@
             endingLineNumber = "95"
             landmarkName = "-updateDailyForecast"
             landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SimpleWeather/SWClient.m"
-            timestampString = "463910349.005613"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "64"
-            endingLineNumber = "64"
-            landmarkName = "-fetchCurrentConditionsForLocation:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SimpleWeather/SWClient.m"
-            timestampString = "463910439.751507"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "-fetchJSONFromURL:"
-            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__32-[SWManager updateDailyForecast]_block_invoke"
+                  moduleName = "SimpleWeather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ls/project/demos/SimpleWeather/SimpleWeather/SWManager.m"
+                  timestampString = "471104389.062219"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "87">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__copy_helper_block_89"
+                  moduleName = "SimpleWeather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ls/project/demos/SimpleWeather/SimpleWeather/SWManager.m"
+                  timestampString = "471104389.062831"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__destroy_helper_block_90"
+                  moduleName = "SimpleWeather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ls/project/demos/SimpleWeather/SimpleWeather/SWManager.m"
+                  timestampString = "471104389.063343"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
